@@ -39,10 +39,11 @@
 }
 
 .header__baner {
-    background: url("../img/header.jpg");
+    background: url("../img/header.jpg") top;
     background-size: cover;
     font-family:"Lato", sans-serif;
-    height: 800px;
+    padding-bottom: 160px;
+    /*height: 800px;*/
 }
 
 .baner__title {
@@ -53,8 +54,6 @@
     border-bottom: 2px solid #15a4fa;
     max-width: 600px;
     padding-bottom: 34px;
-
-
 }
 
 .baner__text {
@@ -73,18 +72,101 @@
     margin-top: 54px;
 }
 
-/* Extra small devices (phones, up to 425px) */
+.simple {
+    font-family:"Lato", sans-serif;
+    background: #f6f9f9;
+}
+
+.simple__title {
+    font-size: 40px;
+    color: #2d3950;
+    padding: 81px 0 0;
+}
+
+.simple__text {
+    font-size: 20px;
+    color: #999;
+    padding: 0 0 110px 0;
+}
+
+.feature {
+    padding: 65px 0 0;
+}
+
+.feature__icon {
+    width: 100px;
+    /*height: 100px;*/
+    background: #48baff;
+}
+
+.fa-mobile {
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    padding: 15px 35px;
+}
+
+.fa-paper-plane-o {
+    color: #fff;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.fa-bullhorn {
+    color: #fff;
+    font-size: 42px;
+    padding: 28px;
+}
+
+.feature__title {
+    font-family: "Lato", sans-serif;
+    color: #2d3950;
+    font-size: 22px;
+    text-align: center;
+    padding: 32px 0 22px 0;
+}
+
+.feature__text {
+    font-family: "Lato", sans-serif;
+    color: #999;
+    font-size: 15px;
+    text-align: center;
+    max-width: 316px;
+    padding: 0 0 65px 0;
+}
+
+.gallery {
+    background-color: #f6f9f9;
+    padding: 0 0 51px 0;
+}
+
+.gallery__title {
+    font-family: "Lato", sans-serif;
+    color: #2d3950;
+    font-size: 41px;
+    padding: 81px 0;
+}
+
+.gallery__item {
+    padding: 0 0 30px 0;
+}
+
 @media (max-width: 425px) {
     .baner__title{
         font-size: 85px;
     }
 }
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
+
+@media (min-width: 426px) and  (max-width: 600px) {
+    .baner__title{
+        font-size: 105px;
+    }
 }
+
 /* tablets/desktops and up ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
 }
+
 /* large desktops and up ----------- */
 @media screen and (min-width: 1200px) {
 }
